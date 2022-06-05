@@ -192,3 +192,28 @@
     font-weight: 200;
     text-transform: uppercase;
   }
+  
+  
+  /* Home Banner */
+  .home-banner {
+    width: 100%;
+    margin-top: 30px;
+    margin: 0px auto;
+  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .home-banner .banner-image {
+    width: 25%;
+    height: 275px;
+  
+  }
+  
+  .home-banner .banner-image img {
+    width: 100%;
+    height: 275px;
+    border: none;
+    /* display: block; */
+  
+  }
