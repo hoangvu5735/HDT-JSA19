@@ -275,6 +275,7 @@ nav .max-width {
   width: 160px;
   height: 50px;
 }
+
 /*Content Cities*/
 .content-cities {
   width: 100%;
@@ -286,4 +287,44 @@ nav .max-width {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+hr {
+  background-color: orange;
+  width: 100px;
+  height: 4px;
+}
+
+.cities-list {
+  width: 100%;
+  height: auto;
+  display: flex;
+
+}
+
+.cities-list .city-item {
+  width: 23%;
+  height: 300px;
+}
+
+.cities-list .city-item img {
+  width: 100%;
+  height: 55%;
+}
+
+.cities-list .city-item .city-content {
+  width: 100%;
+  height: 45%;
+  color: #7d7373;
+}
+
+.cities-list .city-item .city-content h3 {
+  text-transform: uppercase;
+
+}
+
+.cities-list .city-item .city-content .description .description-item a,
+i {
+  color: #d49a2f;
+
 }
