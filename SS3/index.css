@@ -299,7 +299,7 @@ hr {
   width: 100%;
   height: auto;
   display: flex;
-
+  justify-content: space-between;
 }
 
 .cities-list .city-item {
@@ -323,8 +323,26 @@ hr {
 
 }
 
+.cities-list .city-item .city-content .description {
+  padding-left: 8px;
+}
+
 .cities-list .city-item .city-content .description .description-item a,
 i {
   color: #d49a2f;
+
+}
+
+.content-cities .max-width .customer-group {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-cities .max-width .customer-group img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 
 }
