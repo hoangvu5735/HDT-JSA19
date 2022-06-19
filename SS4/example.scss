@@ -1,0 +1,15 @@
+.navbar {
+    ul.menu {
+        list-style: none;
+        display: inline-block;
+
+        li {
+            padding: 10px;
+
+            a {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+/* Importing Open Sans Condensed Google font */
+@import url('https://befonts.com/product-sans-font.html');
+
+#digital-clock {
+    background-color: #0da2ff;
+    width: 75%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 110px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#digital-clock12{
+    background-color: #0da2ff;
+    width: 75%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 110px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
