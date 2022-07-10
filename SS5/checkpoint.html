@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chữa BT checkpoint 1</title>
+  <style>
+    #header {
+      background-color: darkred;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 id="header">Hello World!!</h1>
+
+
+  <script>
+    // Code JS tại đây: Đề ôn tập Javascript
+
+
+    // Câu 1: number (4-20)
+    function findEven(number) {
+      if (number >= 4 && number <= 20) { // &&: toán tử trả true khi 2 hoặc nhiều đk đều thỏa mãn
+        for (let i = 0; i <= number; i++) {
+          if (i % 2 == 0) {
+            console.log(i);
+          }
+        }
+      }
+    }
+    // VD: input: 6 => output: 0, 2,4,6
+    findEven(6); // KQ:
+
+    // Câu 2:
+    const h1 = document.getElementById("header");
+    h1.addEventListener("mouseover", function () {
+      h1.style.backgroundColor = "orange"
+    })
+
+    h1.addEventListener("mouseout", function () {
+      h1.style.backgroundColor = "darkred"
+    })
+
+
+
+    // Câu 3:
+    // C1
+    // function numberOneTriangle() {
+    //   document.write('1');
+    //   document.write('<br>');
+
+    //   document.write('11')
+    //   document.write('<br>');
+    //   document.write('111')
+    //   document.write('<br>');
+    //   document.write('1111')
+    //   document.write('<br>');
+    //   document.write('11111')
+    //   document.write('<br>');
+    // }
+
+    // C2:
+    // function numberOneTriangle(n) {
+    //   for (let i = 1; i <= n; i++) {
+    //     for (let j = 1; j <= i; j++) {
+    //       document.write('1')
+    //     }
+    //     document.write('<br>')
+    //   }
+    // }
+    // numberOneTriangle(5);
+
+
+
+    // Bài 04; 
+    const hour = new Date();
+    const minute = new Date();
+    const second = new Date();
+
+    document.write(`${hour.getHours()}:${minute.getMinutes()}:${second.getSeconds()}`)
+
+  </script>
+</body>
+
+</html>
