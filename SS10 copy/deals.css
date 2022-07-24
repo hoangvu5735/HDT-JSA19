@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    font-family: Product Sans, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    line-height: 1.6;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+ *, *:before, *:after {
+	 box-sizing: border-box;
+}
+ body {
+	 background: #e2ddde;
+	 font: 12px/18px "Lato", Arial, sans-serif;
+}
+ .container {
+	 background: white;
+	 width: 740px;
+	 margin: 50px auto;
+	 border-radius: 20px;
+	 position: relative;
+	 box-shadow: -1px 15px 30px -6px rgba(196, 196, 196, 1);
+}
+ strong {
+	 font-weight: 900;
+}
+ .shoe-details-left {
+	 float: left;
+	 background: #ff0235;
+	 background: linear-gradient(#ff0237, #ff4928);
+	 width: 270px;
+	 color: white;
+	 padding: 30px;
+	 border-top-left-radius: 20px;
+	 border-bottom-left-radius: 20px;
+}
+ .shoe-details-left .logo {
+	 width: 75px;
+	 margin-bottom: 55px;
+}
+ .shoe-details-left .product-title {
+	 font-size: 20px;
+	 text-transform: uppercase;
+	 margin-bottom: 15px;
+}
+ .shoe-details-left .product-description {
+	 width: 200px;
+	 font-size: 12px;
+}
+ .shoe-details-left .product-shot {
+	 width: 250px;
+	 margin-left: -54px;
+	 margin-top: -20px;
+}
+ .shoe-details-left .product-price, .shoe-details-left .product-price-details {
+	 text-align: center;
+}
+ .shoe-details-left .product-price {
+	 font-size: 26px;
+	 font-weight: 700;
+	 margin-bottom: 10px;
+}
+ .shoe-details-right {
+	 float: left;
+	 width: 470px;
+	 padding: 30px;
+	 text-transform: uppercase;
+}
+ .shoe-details-right .product-title {
+	 font-size: 20px;
+}
+ .shoe-details-right .label {
+	 background: #ff3f2a;
+	 color: white;
+	 border-radius: 5px;
+	 padding: 4px 7px;
+	 font-size: 10px;
+	 vertical-align: top;
+	 margin-left: 10px;
+}
+ .shoe-details-right .product-category {
+	 margin: 5px 0 10px;
+}
+ .shoe-details-right .product-stars {
+	 margin-bottom: 30px;
+}
+ .shoe-details-right .product-stars .gray {
+	 color: #999;
+}
+ .shoe-details-right .product-tabs {
+	 margin-bottom: 20px;
+}
+ .shoe-details-right .product-tabs li {
+	 display: inline;
+	 margin-right: 10px;
+	 padding: 0 7px;
+	 color: #ff3f2a;
+}
+ .shoe-details-right .product-tabs li.active {
+	 padding-bottom: 3px;
+	 border-bottom: 3px solid #ff3f2a;
+}
+ .shoe-details-right .product-tabs li a {
+	 color: #cacaca;
+	 text-decoration: none;
+	 font-weight: 700;
+}
+ .shoe-details-right .product-tabs li a:hover, .shoe-details-right .product-tabs li a:focus {
+	 color: #ff3f2a;
+}
+ .shoe-details-right .product-tabs li.active > a {
+	 color: #ff3f2a !important;
+}
+ .shoe-details-right .tab-content {
+	 text-transform: none;
+	 font-size: 14px;
+	 margin-bottom: 30px;
+}
+ .shoe-details-right h2 {
+	 font-weight: 900;
+	 margin-bottom: 10px;
+}
+ .shoe-details-right .sizes {
+	 margin-bottom: 20px;
+}
+ .shoe-details-right .sizes li {
+	 display: inline;
+	 font-size: 14px;
+	 margin-right: 40px;
+	 padding: 5px;
+}
+ .shoe-details-right .sizes li.active, .shoe-details-right .sizes li:hover {
+	 background: #ff3f2a;
+	 border-radius: 50%;
+	 color: white;
+}
+ .shoe-details-right .sizes li.active > a, .shoe-details-right .sizes li:hover > a {
+	 color: white;
+}
+ .shoe-details-right .sizes li a {
+	 text-decoration: none;
+	 color: black;
+}
+ .shoe-details-right .colours {
+	 margin: 20px 0 60px;
+}
+ .shoe-details-right .colours li {
+	 display: inline;
+	 margin-right: 30px;
+}
+ .shoe-details-right .colours li.active > a {
+	 border: 1px solid #00d3ef;
+	 border-radius: 100%;
+	 padding: 14px 7px 3px 7px;
+}
+ .shoe-details-right .circle {
+	 border-radius: 50%;
+	 width: 20px;
+	 height: 20px;
+	 display: inline-block;
+}
+ .shoe-details-right .blue {
+	 background: #00d3ef;
+}
+ .shoe-details-right .orange {
+	 background: #ff3f2a;
+}
+ .shoe-details-right .yellow {
+	 background: #ffd203;
+}
+ .shoe-details-right .black {
+	 background: black;
+}
+ .shoe-details-right a.btn {
+	 text-decoration: none;
+	 background: #ccc;
+	 color: white;
+	 padding: 14px 20px;
+	 font-size: 16px;
+	 border-radius: 6px;
+}
+ .shoe-details-right a.btn:hover {
+	 background: #d9d9d9;
+}
+ .shoe-details-right a.btn-primary {
+	 background: #00d3ef;
+	 margin-right: 20px;
+}
+ .shoe-details-right a.btn-primary:hover {
+	 background: #0ae2ff;
+}
+ .close-button {
+	 position: absolute;
+	 right: -20px;
+	 top: -20px;
+	 font-size: 40px;
+	 color: #b8b8b8;
+	 background: white;
+	 border-radius: 50%;
+	 padding: 10px 10px 15px 10px;
+	 box-shadow: -1px 3px 20px -6px rgba(196, 196, 196, 1);
+}
+ .close-button:hover {
+	 background: #fbfafa;
+	 cursor: pointer;
+}
+ .clearfix:after {
+	 visibility: hidden;
+	 display: block;
+	 font-size: 0;
+	 content: " ";
+	 clear: both;
+	 height: 0;
+}
+ 
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #2eb82e;
+    color: white;
+}
+
+/*  */
+
+.title {
+    font-size: 26px;
+    text-align: center;
+    margin: 0px 20px;
+    padding: 10px 20px;
+}
+
+.center {
+    text-align: center;
+    margin: 10px;
+}
+
+#srchbar {
+    text-align: justify;
+    margin-top: 11px;
+
+}
+
+.textArea {
+    border: solid #333;
+    width: 1400px;
+    margin-left: 55px;
+}
+
+#images {
+    text-align: center;
+    margin: 50px auto;
+}
+
+#images a {
+    margin: 0px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.loginContainer {
+    padding: 10px;
+    text-align: right;
+    size: 300px;
+
+}
+
+.submitButton {
+    size: 10px;
+    width: 69px;
+    padding-inline: 10px;
+}
+
+.navbar-item:hover {
+    background-color: rgb(226, 221, 215);
+    color: black;
+}
+
+#home {
+    max-width: 980px;
+
+    margin: auto;
+}
+
+.padding-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+
+.third {
+    width: 33.3333%;
+}
+
+.row {
+    display: flex;
+
+}
+
+#members h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+    font-weight: 200;
+}
+
+
+.wide {
+    letter-spacing: 4px;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.opacity {
+    opacity: 0.6;
+
+}
+
+#contact p {
+    padding: 10px 0px;
+}
+
+
+.hieu-input {
+    padding: 8px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.hieu-button {
+    color: #fff;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.hieu-button:hover {
+    color: black;
+    background-color: gray;
+}
+
+
+
+button {
+    size: 2000px;
+}
+
+
+/* ==========================================
+    FOR DEMO PURPOSE
+  ========================================== */
+  body {
+    background: #479987;
+}
+
+.text-small {
+    font-size: 0.9rem;
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.form-control {
+    background: #b1c3d4;
+    border-color: #bdb6b6;
+}
+
+.form-control:focus {
+    background: #40664d;
+}
+
+footer {
+    background: #0e8f19;
+}
+
+
+/* ==========================================
+      CUSTOM UTILS CLASSES
+    ========================================== */
+body,
+html {
+    height: 100%;
+}
